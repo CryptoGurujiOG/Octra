@@ -28,8 +28,9 @@ bun run build
 bun start
 ```
 
-- Click the “PORTS” tab, open the link under the forwarded address in browser
-- Wallet Generated Backup your wallet address & private key
+- Click on the green "Open in Browser"
+- Click "generate new wallet"
+- Scroll down and  backup mnemonic, private key & public key
 
 ---
 
