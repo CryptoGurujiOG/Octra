@@ -30,7 +30,8 @@ bun start
 
 - Click on the green "Open in Browser"
 - Click "generate new wallet"
-- Scroll down and backup mnemonic, private key, public key & octra address
+- Scroll down
+- Save (backup) mnemonic, private key, public key & octra address
 
 ---
 
