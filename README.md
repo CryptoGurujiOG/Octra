@@ -37,7 +37,7 @@ bun start
 Step 3:
 
 - Visit: https://faucet.octra.network/
-- Paste your wallet address and claim faucet
+- Paste your octra addres and claim faucet
 - Join Discord: https://discord.gg/ScJc5K7sVr
 
 ---
