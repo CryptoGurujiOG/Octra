@@ -76,14 +76,14 @@ nano wallet.json
   * `private-key-here`: Privatekey with `B64` format
   * `octxxxxxxxx...`: Octra address starting with `oct...`
 
-3. Start CLI
+4. Start CLI
 
 ```
 python3 -m venv venv
 source venv/bin/activate
 python3 cli.py
 ```
-4. Send transactions
+5. Send transactions
 
 - Send transactions to my address: `oct9KoXHoMmgHTL6yG2DgJRGC2imkp4qtEpXu4JTb7HpvLN`
 - Use Octra Explorer to find more octra addresses: https://octrascan.io/
