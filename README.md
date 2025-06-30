@@ -43,9 +43,56 @@ Step 3:
 
 ---
 
+Step 4:
+
+# Send Transactions
+
+Install Python
+
+
+```
+sudo apt install python3 python3-pip python3-venv python3-dev -y
+```
+2. Install CLI
+
+```
+git clone https://github.com/octra-labs/octra_pre_client.git
+cd octra_pre_client
+
+python3 -m venv venv
+source venv/bin/activate
+pip install -r requirements.txt
+
+cp wallet.json.example wallet.json
+```
+
+3. Add wallet to CLI
+
+```
+nano wallet.json
+```
+
+- Replace the following values:
+  * `private-key-here`: Privatekey with `B64` format
+  * `octxxxxxxxx...`: Octra address starting with `oct...`
+
+3. Start CLI
+
+```
+python3 -m venv venv
+source venv/bin/activate
+python3 cli.py
+```
+4. Send transactions
+
+- Send transactions to my address: `oct9KoXHoMmgHTL6yG2DgJRGC2imkp4qtEpXu4JTb7HpvLN`
+- Use Octra Explorer to find more octra addresses
+
+---
+
 ⚠️  I will share a detailed guide on my Twitter or YouTube once the Octra incentivized testnet goes live.
 
-📢 Make sure to Follow us for regular updates
+📢 Make sure to follow us for regular updates
 
 - Twitter: https://x.com/CryptoGurujiOG
 - Youtube: https://www.youtube.com/@CryptoGurujiOG
